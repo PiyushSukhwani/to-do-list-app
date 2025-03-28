@@ -93,7 +93,7 @@ This **To-Do List Application** is built using **React.js**, **Mantine UI**, and
 ### 📋 Task List
 ![Task List](public/screenshots/task-list.png)
 
-### 🌦️ Weather Integration
+### 🌦️ Login Page
 ![Weather](public/screenshots/login.png)
 
 ```
