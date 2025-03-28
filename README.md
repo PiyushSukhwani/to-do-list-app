@@ -85,4 +85,17 @@ This **To-Do List Application** is built using **React.js**, **Mantine UI**, and
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](public/screenshots/home.png)
+
+### 📋 Task List
+![Task List](public/screenshots/task-list.png)
+
+### 🌦️ Weather Integration
+![Weather](public/screenshots/login.png)
+
+```
+
 ✅ **Developed by Piyush using React.js, Mantine, and Tailwind CSS.**
