@@ -1,12 +1,88 @@
-# React + Vite
+# To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
 
-Currently, two official plugins are available:
+This **To-Do List Application** is built using **React.js**, **Mantine UI**, and **Tailwind CSS**. It allows users to manage tasks efficiently with features like task prioritization, local storage persistence, and authentication. Additionally, the app integrates a weather API to display current weather conditions relevant to tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [View Project]https://to-do-list-app-teal-rho.vercel.app/
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, Mantine UI, Tailwind CSS
+- **State Management:** Redux Toolkit & Redux Thunk
+- **Storage:** Local Storage for task persistence
+- **Authentication:** Mock authentication using Redux
+- **API Integration:** Fetches weather data from a public API
+
+## ✨ Features
+
+### 📝 Task Management
+
+- **Add Task:** Users can enter and add tasks to the list.
+- **View Tasks:** Displays all tasks in a structured format.
+- **Delete Task:** Users can remove tasks with a delete button.
+- **Task Prioritization:** Allows setting task priorities (High, Medium, Low).
+- **Persistent Storage:** Saves tasks in local storage to retain data across sessions.
+
+### 🔐 User Authentication
+
+- **Login/Logout:** Simulates authentication using Redux (no backend required).
+- **Protected Routes:** Tasks are visible only to logged-in users.
+
+### 🌦️ API Integration
+
+- **Weather Display:** Integrates a public weather API to show current weather conditions relevant to tasks.
+- **Error Handling:** Gracefully manages API request failures.
+
+## 📂 Project Structure
+
+```
+📁 to-do-list-app
+│── 📂 src
+│   ├── 📂 components
+│   │   ├── TaskInput.jsx
+│   │   ├── TaskList.jsx
+│   │   ├──Navbar.jsx
+│   ├── 📂 pages
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── TaskPage.jsx
+│   ├── 📂 store
+│   │   ├── taskSlice.js
+│   │   ├── authSlice.js
+│   │   ├── store.js
+│   ├── App.jsx
+│   ├── main.jsx
+│── 📂 public
+│── .gitignore
+│── package.json
+│── README.md
+```
+
+## 📌 Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/PiyushSukhwani/to-do-list-app.git
+   cd to-do-list-app
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## 🔧 Usage
+
+1. **Login** to access the to-do list.
+2. **Add tasks** using the input field and set priority.
+3. **View & delete tasks** as needed.
+4. **Check the weather** for outdoor-related tasks.
+5. **Logout** to secure your session.
+
+---
+
+✅ **Developed by Piyush using React.js, Mantine, and Tailwind CSS.**
